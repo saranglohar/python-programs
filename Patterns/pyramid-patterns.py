@@ -31,23 +31,72 @@ Inverted centered pyramid (n=4)
  ***** 
   ***  
    *   
+"""
+
+print()
+
+for i in range(rows, 0, -1):
+    print(" " * (rows - i), end="")
+    print("*" * (2 * i - 1))
+
+
+"""
 Half pyramid left-aligned (n=4)
 *
 **
 ***
 ****
+"""
+
+print()
+for i in range(rows):
+    print("*" * (i + 1))
+
+
+print()
+
+"""
 Half pyramid right-aligned (n=4)
    *
   **
  ***
 ****
+"""
+print()
+
+for i in range(rows):
+    print(" " * (rows - i - 1), end="")
+    print("*" * (i + 1))
+
+
+"""
 Number pyramid (n=4)
    1
   121
  12321
 1234321
+
+"""
+
+for i in range(1, rows + 1):
+    print()
+    print(" " * (rows - i), end="")
+    for j in range(1, i + 1):
+        print(j, end="")
+    for k in range(i - 1, 0, -1):
+        print(k, end="")
+
+"""
 Alphabet pyramid (n=3)
   A
  ABA
-ABC  BA
+ABCCBA
 """
+print()
+for i in range(1, rows + 1):
+    print()
+    print(" " * (rows - i), end="")
+    for j in range(1, i + 1):
+        print(chr(64 + j), end="")
+    for k in range(i - 1, 0, -1):
+        print(chr(64 + k), end="")

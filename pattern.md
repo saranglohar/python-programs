@@ -10,7 +10,7 @@ You can use these to practice loops, conditions, and nested structures in any la
 5. Print a horizontal line of n stars.
 6. Print a vertical line of n stars.
 ---
-### 🔹 **Pyramid Patterns**
+### 🔹 **Pyramid Patterns** 09 Aug 2025
 7. Print a centered pyramid of stars.
 8. Print an inverted centered pyramid.
 9. Print a half pyramid using stars (left aligned).
