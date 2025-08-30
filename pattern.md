@@ -2,7 +2,7 @@
 Great! Here’s a categorized list of **star pattern programming questions** (from beginner to advanced).
 You can use these to practice loops, conditions, and nested structures in any language like Python.
 
-### 🔹 **Basic Patterns** 05/08/2025
+### 🔹 **Basic Patterns** 05/08/2025 (Tuesday)
 1. Print a square of stars (n x n).
 2. Print a right-angled triangle of stars.
 3. Print an inverted right-angled triangle.
@@ -10,22 +10,22 @@ You can use these to practice loops, conditions, and nested structures in any la
 5. Print a horizontal line of n stars.
 6. Print a vertical line of n stars.
 ---
-### 🔹 **Pyramid Patterns** 09 Aug 2025
+### 🔹 **Pyramid Patterns** 09 Aug 2025 (Saturday)
 7. Print a centered pyramid of stars.
 8. Print an inverted centered pyramid.
 9. Print a half pyramid using stars (left aligned).
-10. Print a half pyramid using stars (right aligned).
+10. Print a half pyramid using stars (right aligned)
 11. Print a pyramid with numbers instead of stars.
 12. Print a pyramid with alphabets instead of stars.
 ---
-### 🔹 **Diamond and Hourglass**
+### 🔹 **Diamond and Hourglass** 16 Aug 2025 (Saturday)
 13. Print a full diamond of stars.
 14. Print a hollow diamond pattern.
 15. Print an hourglass pattern.
 16. Print a mirrored diamond (right-aligned).
 ---
-### 🔹 **Hollow Patterns**
-17. Print a hollow square of stars.
+### 🔹 **Hollow Patterns** 
+17. Print a hollow square of stars. 30 Aug 2025 (Saturday
 18. Print a hollow right-angled triangle.
 19. Print a hollow pyramid.
 20. Print a hollow diamond.

@@ -64,7 +64,7 @@ for i in range(rows -1 , 0 , -1):
  ******
 ********
 """
-print("---- Hourglass (n=4)")
+print(f"---- Hourglass (n={rows})")
 
 for i  in range(rows, 0, -1):
     print(" " * (rows - i), end="")
@@ -82,7 +82,7 @@ for i  in range(2, rows + 1):
    **
     *
 """
-print("---- Mirrored diamond (n=4)")
+print(f"---- Mirrored diamond (n={rows})")
 
 for i in range(1, rows + 1):
     print(" " * (rows - i), end="")
@@ -90,4 +90,4 @@ for i in range(1, rows + 1):
 
 for i in range(rows - 1, 0, -1):
     print(" " * (rows - i), end="")
-    print("*" * i)
+    print(f"{'*' * i}")
