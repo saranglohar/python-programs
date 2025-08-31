@@ -22,7 +22,7 @@ for i in range(1, rows +1):
         print("*" + (" " * (rows - 2)) + "*")
 
 """
-Hollow right triangle (n=4)
+Hollow right triangle (n=4) 31st Aug 2024
 *
 **
 * *
@@ -30,16 +30,32 @@ Hollow right triangle (n=4)
 """
 print("\nHollow right triangle: ")
 
+for i in range(1, rows +1):
+    if i == 1 or i == rows:
+        print("*" * i)
+    else:
+        print("*" + (" " * (i -2)) + "*")
+
 
 
 """
-Hollow pyramid (n=4)
+Hollow pyramid (n=4) 31st Aug 2024
    *
   * *
  *   *
 *******
 
 """
+print("\nHollow pyramid (n=4)")
+
+for i in range(1, rows +1):
+    if i == 1 or i == rows:
+        print(" " * (rows - i), end="")
+        print("*" * (i + (i-1)))
+    else:
+        print(" " * (rows - i), end="")
+        print("*" + " " * (i * 2 - 3) + "*")
+
 
 """
 Hollow diamond (n=3)

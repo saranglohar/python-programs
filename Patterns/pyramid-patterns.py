@@ -86,6 +86,20 @@ for i in range(1, rows + 1):
     for k in range(i - 1, 0, -1):
         print(k, end="")
 
+print()
+n = rows
+for i in range(1, n + 1):
+    # left padding spaces
+    spaces = " " * (n - i)
+
+    # ascending numbers 1..i
+    asc = "".join(str(x) for x in range(1, i + 1))
+
+    # descending numbers (i-1..1)
+    desc = "".join(str(x) for x in range(i - 1, 0, -1))
+
+    print(spaces + asc + desc)
+
 """
 Alphabet pyramid (n=3)
   A  
